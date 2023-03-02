@@ -1,0 +1,115 @@
+/*
+    https://www.modularscale.com/?1&em&1.25
+    Major Third
+*/
+
+html, body{
+    height: 100%;
+}
+
+body{
+    background-image: url("../images/homepage-800.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        background-image: url("../images/homepage-1200.jpg");
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url("../images/homepage-1200.jpg");
+    }
+    .check-input li{
+        padding-right: 7.5em;
+    }
+}
+
+.overlay{
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+
+.sign-in{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    padding: 1.5em 1.1em 1.1em 1.1em;
+    max-width: 40em;
+    border-radius: 0.2em;
+}
+
+.sign-in h2{
+    font-size: 1.563em; /* Modular Scale */
+    width: max-content;
+    padding: 0 0 1em 0;
+    margin: 0 auto;
+}
+
+.text-input{
+    padding-bottom: 2em;
+}
+
+.text-input li{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+}
+
+.text-input li label{
+    font-size: 1.25em; /* Modular Scale */
+    font-weight: 300;
+    padding-bottom: 0.3em;
+}
+
+.text-input li input{
+    border:1px solid darkgrey;
+    font-size: 1em;
+    outline: 0;
+    padding: 0.5em 0.1em 0.5em 0.5em;
+}
+
+.text-input li input:focus-visible{
+    border:1px solid darkgrey;
+}
+
+.check-input{
+    padding-bottom: 2em;
+}
+
+.check-input li{
+    font-size: 1.1em;
+    padding-bottom: 0.7em;
+}
+
+.check-input input, .check-input label{
+    font-size: 0.8em;
+}
+
+button, input[type="checkbox"]{
+    cursor: pointer;
+}
+
+button{
+    background-color: #6381bc;
+    border: 0;
+    border-radius: 0.2em;
+    color: #ffffff;
+    font-size: 1.01em;
+    padding: 0.5em;
+}
+
+.error{
+    color: #d64e4e;
+    font-size: 0.9em;
+}
