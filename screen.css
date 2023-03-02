@@ -16,13 +16,13 @@ body{
 
 @media screen and (min-width: 800px) {
     body{
-        background-image: url("../images/homepage-1200.jpg");
+        background-image: url("../images/homepage-1200 .jpg");
     }
 }
 
 @media screen and (min-width: 1200px) {
     body{
-        background-image: url("../images/homepage-1200.jpg");
+        background-image: url("../images/homepage-1200 .jpg");
     }
     .check-input li{
         padding-right: 7.5em;
